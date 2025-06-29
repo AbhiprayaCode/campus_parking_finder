@@ -1,0 +1,27 @@
+name: campus_parking_finder
+description: A mobile app for managing campus parking using Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  firebase_database: 10.5.7
+  google_maps_flutter: ^2.0.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  uses-material-design: true
